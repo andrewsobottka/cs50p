@@ -1,0 +1,14 @@
+def main():
+    name = input("What's your name? ")
+    if (len(name)>1):
+        hello(name)
+    else:
+        hello()
+
+
+def hello(name="World"):
+    print(f"Hello, {name}!")
+
+
+
+main()
